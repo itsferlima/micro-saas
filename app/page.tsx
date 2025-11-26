@@ -1,15 +1,16 @@
+import Hero from "./components/landing-page/hero";
+import "./globals.css";
+
 export default function Home() {
-  return 
-  <div background="#2eca39ff h-screen">
-    <h1 h1="#46545" >HI</h1>
+  return <div className="bg-bakcground-primary">
+    <Hero></Hero>
     {/*<header>
-      <hero>
-        <VideoDecoder>
+        <video>
+          <faq>
 
-        </VideoDecoder>
-      </hero>
-      </header>*/}
-
-
-  </div>;
+          </faq>
+        </video>
+    </header>*/}
+  </div>
+  
 }
